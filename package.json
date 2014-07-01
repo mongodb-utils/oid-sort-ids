@@ -1,0 +1,20 @@
+{
+  "name": "oid-sort-ids",
+  "description": "sort a list of ObjectIDs or objects based on an array of ObjectIDs",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "twitter": "https://twitter.com/jongleberry"
+  },
+  "license": "MIT",
+  "repository": "mongodb-utils/oid-sort-ids",
+  "devDependencies": {
+    "mongodb": "1",
+    "mocha": "1"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --bail"
+  }
+}
