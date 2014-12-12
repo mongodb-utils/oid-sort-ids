@@ -2,7 +2,7 @@
 var ObjectID = require('mongodb').ObjectID
 var assert = require('assert')
 
-var sort = require('./')
+var sort = require('..')
 
 it('should sort 2 objectids', function () {
   var oids = [
